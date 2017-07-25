@@ -33,7 +33,11 @@ var drawDot = function(event, response) {
     if(response === 'True') {
         c.fillStyle = 'green';
     }
-    c.fillRect(event.clientX, event.clientY, 5, 5);
+    // In case of performance issue, use the fillrect method below to draw the dot.
+    // However, dots drawn with the arc method look much better.
+    c.arc(event.clientX, event.clientY, 3, 0, Math.PI * 2);
+    // c.fillRect(event.clientX, event.clientY, 5, 5);
+    c.fill();
 };
 
 var checkIfDotLiesInTheCircle = function (url, event, callback) {
