@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e21f62a-3f6a-4058-b681-264483a0f0fc" name="Default" comment="Added check and REST service.&#10;Added colour to points on canvas.&#10;Added unit tests for in, out and border values.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/nevercode.iml" afterPath="$PROJECT_DIR$/.idea/nevercode.iml" />
+    <list default="true" id="4e21f62a-3f6a-4058-b681-264483a0f0fc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dot_and_circle/static/canvas.js" afterPath="$PROJECT_DIR$/dot_and_circle/static/canvas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dot_and_circle/tests.py" afterPath="$PROJECT_DIR$/dot_and_circle/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dot_and_circle/views.py" afterPath="$PROJECT_DIR$/dot_and_circle/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nevercode/settings.py" afterPath="$PROJECT_DIR$/nevercode/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dot_and_circle/templates/dot_and_circle/index.html" afterPath="$PROJECT_DIR$/dot_and_circle/templates/dot_and_circle/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nevercode/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -48,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dot_and_circle/templates/dot_and_circle/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -102,11 +98,11 @@
       <list>
         <option value="$PROJECT_DIR$/nevercode/urls.py" />
         <option value="$PROJECT_DIR$/dot_and_circle/urls.py" />
-        <option value="$PROJECT_DIR$/dot_and_circle/templates/dot_and_circle/index.html" />
         <option value="$PROJECT_DIR$/dot_and_circle/views.py" />
         <option value="$PROJECT_DIR$/dot_and_circle/tests.py" />
         <option value="$PROJECT_DIR$/dot_and_circle/static/canvas.js" />
         <option value="$PROJECT_DIR$/nevercode/settings.py" />
+        <option value="$PROJECT_DIR$/dot_and_circle/templates/dot_and_circle/index.html" />
       </list>
     </option>
   </component>
@@ -159,6 +155,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="nevercode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dot_and_circle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nevercode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nevercode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dot_and_circle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -451,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500936437207</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Basic API tests.">
+      <created>1500988087727</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500988087727</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -519,7 +544,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added check and REST service.&#10;Added colour to points on canvas.&#10;Added unit tests for in, out and border values." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added check and REST service.&#10;Added colour to points on canvas.&#10;Added unit tests for in, out and border values." />
+    <MESSAGE value="Basic API tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic API tests." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -719,18 +745,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dot_and_circle/templates/dot_and_circle/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nevercode/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="112" column="15" lean-forward="true" selection-start-line="112" selection-start-column="15" selection-end-line="112" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dot_and_circle/templates/dot_and_circle/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding />
         </state>
       </provider>
