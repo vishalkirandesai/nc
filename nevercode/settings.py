@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'dot_and_circle.apps.DotAndCircleConfig'
+    'dot_and_circle.apps.DotAndCircleConfig',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -51,8 +52,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'nevercode.urls'
-
-STATIC_URL = '/static/'
 
 TEMPLATES = [
     {
@@ -122,3 +121,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# REST Framework
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    'DEFAULT_PERMISSION_CLASSES': [],
+    'TEST_REQUEST_DEFAULT_FORMAT': 'json'
+}

@@ -23,7 +23,7 @@ var drawCircle = function(x, y, radius) {
 drawCircle(circleX, circleY , circleRadius);
 
 var checkDot = function(event) {
-    checkIfDotLiesInTheCircle('/dot_and_circle/check', event, drawDot);
+    checkIfDotLiesInTheCircle('/dot_and_circle/check/', event, drawDot);
 };
 
 var drawDot = function(event, response) {
@@ -48,10 +48,9 @@ var checkIfDotLiesInTheCircle = function (url, event, callback) {
         "yCircle="+circleY+"&"+
         "xPoint="+event.clientX+"&"+
         "yPoint="+event.clientY;
-    xhttp.open('GET', url+params, false);
+    xhttp.open('GET', url + params, false);
     xhttp.setRequestHeader("Content-type", "application/json");
-
-    xhttp.send(params);
-}
+    xhttp.send();
+};
 
 canvas.addEventListener('click', checkDot);
